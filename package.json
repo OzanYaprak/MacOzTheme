@@ -1,0 +1,36 @@
+{
+  "name": "macoztheme",
+  "displayName": "MacOzTheme",
+  "description": "No Desc. Just thanks :)",
+  "publisher": "OzanErhanYAPRAK",
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/OzanYaprak/MacOzTheme"
+  },
+  "keywords": [
+    "theme",
+    "light theme",
+    "ozanyaprak",
+    "macos",
+    "macbook",
+    "apple",
+    "mactheme",
+    "macbooktheme"
+  ],
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MacOzTheme",
+        "uiTheme": "vs",
+        "path": "./themes/MacOzTheme-color-theme.json"
+      }
+    ]
+  }
+}
